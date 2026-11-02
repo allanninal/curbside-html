@@ -61,9 +61,9 @@ Lighthouse mobile, this folder served as static files, median of three runs (2 N
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---:|---:|---:|---:|
-| Home | 90 | 100 | 100 | 100 |
+| Home | 92 | 100 | 100 | 100 |
 | Menu | 100 | 100 | 100 | 100 |
-| Journal | 92 | 100 | 100 | 100 |
+| Journal | 93 | 100 | 100 | 100 |
 | Contact | 100 | 100 | 100 | 100 |
 
 Your scores will vary with your host and photos.
