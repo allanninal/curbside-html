@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Rolled Smoke//Weekly stops//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Rolled Smoke: weekly stops
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:rolled-smoke-mo-1130@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261109T113000
+DTEND;TZID=America/Chicago:20261109T150000
+RRULE:FREQ=WEEKLY;BYDAY=MO
+SUMMARY:Rolled Smoke at South Congress Ave
+LOCATION:South Congress Ave\, 1600 S Congress Ave\, Austin\, TX 78704
+DESCRIPTION:Street parking on SoCo strip Every Monday. Schedule updated 202
+ 6-11-09. Check the website for changes and cancellations.
+END:VEVENT
+BEGIN:VEVENT
+UID:rolled-smoke-tu-1700@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261110T170000
+DTEND;TZID=America/Chicago:20261110T210000
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SUMMARY:Rolled Smoke at Rainey Street
+LOCATION:Rainey Street\, 85 Rainey St\, Austin\, TX 78701
+DESCRIPTION:Bar District — evening service Every Tuesday. Schedule update
+ d 2026-11-09. Check the website for changes and cancellations.
+END:VEVENT
+BEGIN:VEVENT
+UID:rolled-smoke-we-1130@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261111T113000
+DTEND;TZID=America/Chicago:20261111T143000
+RRULE:FREQ=WEEKLY;BYDAY=WE
+SUMMARY:Rolled Smoke at Domain Northside
+LOCATION:Domain Northside\, 11600 Century Oaks Terrace\, Austin\, TX 78758
+DESCRIPTION:Every Wednesday. Schedule updated 2026-11-09. Check the website
+  for changes and cancellations.
+END:VEVENT
+BEGIN:VEVENT
+UID:rolled-smoke-th-1700@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261112T170000
+DTEND;TZID=America/Chicago:20261112T210000
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SUMMARY:Rolled Smoke at East 6th Street
+LOCATION:East 6th Street\, 1601 E 6th St\, Austin\, TX 78702
+DESCRIPTION:Late-night menu from 8 PM Every Thursday. Schedule updated 2026
+ -11-09. Check the website for changes and cancellations.
+END:VEVENT
+BEGIN:VEVENT
+UID:rolled-smoke-fr-1100@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261113T110000
+DTEND;TZID=America/Chicago:20261113T160000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Rolled Smoke at Barton Springs Pool
+LOCATION:Barton Springs Pool\, 2101 Barton Springs Rd\, Austin\, TX 78746
+DESCRIPTION:Park lot — cash & card Every Friday. Schedule updated 2026-11
+ -09. Check the website for changes and cancellations.
+END:VEVENT
+BEGIN:VEVENT
+UID:rolled-smoke-sa-1000@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261114T100000
+DTEND;TZID=America/Chicago:20261114T170000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+SUMMARY:Rolled Smoke at Downtown Lot / 2nd & Guadalupe
+LOCATION:Downtown Lot / 2nd & Guadalupe\, 200 W 2nd St\, Austin\, TX 78701
+DESCRIPTION:Weekend flagship stop — full menu Every Saturday. Schedule up
+ dated 2026-11-09. Check the website for changes and cancellations.
+END:VEVENT
+BEGIN:VEVENT
+UID:rolled-smoke-su-1000@curbside
+DTSTAMP:20261109T000000Z
+DTSTART;TZID=America/Chicago:20261115T100000
+DTEND;TZID=America/Chicago:20261115T140000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Rolled Smoke at Eastside Sunday Market
+LOCATION:Eastside Sunday Market\, 1200 Market Lane\, Austin\, TX 78702
+DESCRIPTION:Market day — limited quantities Every Sunday. Schedule update
+ d 2026-11-09. Check the website for changes and cancellations.
+END:VEVENT
+END:VCALENDAR

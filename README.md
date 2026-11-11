@@ -13,11 +13,12 @@ Curbside is a free, plain-HTML website for a food truck. Open `index.html` and i
 ## What's inside
 
 - **Hero** — a photo of smoke over the grill, a quick look at the next three stops, two calls to action
-- **This week's schedule** — seven day cards with place, neighbourhood, time, address and a note
-- **Menu** — three tabs (Tacos, Sides & Extras, Drinks) with prices and dietary tags (gluten-free, vegan, dairy-free, spicy, bestseller, new), plus the allergen note
+- **This week's schedule** — seven day cards with place, neighbourhood, time, address, a note and a Directions link; an "updated" date, an optional cancellation banner, an Add to calendar file (`/schedule.ics`) and schema.org `Event` data for each stop
+- **Menu** — three tabs (Tacos, Sides & Extras, Drinks) with prices and dietary tags (gluten-free, vegan, dairy-free, spicy, bestseller, new), plus a "Contains" allergen line on every item (US nine and coconut) and the allergy notice
 - **Menu page** — the whole menu on one printable page
 - **Where to find us** — phone, email, social links
-- **Book the truck** — three catering packages and a custom-quote band
+- **Book the truck** — three catering packages, an inquiry form (event, date, service window, headcount, address, parking and power, budget, dietary needs) and a custom-quote band
+- **Pre-order** — text and a link-out button to your own ordering page (`truck.orderUrl`)
 - **Our story** — the pitmaster's story and a stats band
 - **Gallery** — six photographs with descriptive alt text
 - **Journal** — three posts and their pages
@@ -57,13 +58,13 @@ It is a folder of static files, so any static host works.
 
 ## Measured scores
 
-Lighthouse mobile, this folder served as static files, median of three runs (2 November 2026):
+Lighthouse mobile, this folder served as static files, median of three runs (11 November 2026):
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---:|---:|---:|---:|
 | Home | 92 | 100 | 100 | 100 |
 | Menu | 100 | 100 | 100 | 100 |
-| Journal | 93 | 100 | 100 | 100 |
+| Journal | 91 | 100 | 100 | 100 |
 | Contact | 100 | 100 | 100 | 100 |
 
 Your scores will vary with your host and photos.
